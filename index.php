@@ -47,9 +47,6 @@ $sql="SELECT * FROM tb_dtuser";
         <br>
         <div class="panel panel-primary">
                 <div class="panel-heading">Panel Auto Massage WA V 0.1</div>
-                <div class="panel-body">
-                    <a href="tambahdata.php" style="text-decoration: none;"><span class="label label-success glyphicon-plus"> Tambah Data</span></a>
-                </div>
         <table class="table table-bordered" align="center">
             <tr>
                 <td>No</td>
