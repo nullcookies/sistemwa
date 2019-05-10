@@ -4,25 +4,8 @@ include 'config.php';
 $sql="SELECT * FROM tb_dtuser";
 		$query=mysqli_query($conn, $sql);
 ?>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <title>Sistem AMW V 0.1</title>
-</head>
-
-<body>
-<br><br><br>
     <div class="container">
-        <center><h1>Selamat Datang</h1></center>
+        <center><h1>Menu list</h1></center>
         <br>
         <div class="panel panel-primary">
                 <div class="panel-heading">Panel Auto Massage WA V 0.1</div>
@@ -63,5 +46,3 @@ $sql="SELECT * FROM tb_dtuser";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
-  </body>
-</html>

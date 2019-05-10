@@ -28,7 +28,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php?m=home">Home</a></li>
+            <li><a href="index.php?m=home">Home</a></li>
             <li><a href="index.php?m=menulist">Menu List</a></li>
             <li><a href="index.php?m=about">About</a></li>
           </ul>
@@ -37,7 +37,7 @@
     </nav>
 
     <div class="container">
-        <center><h1>Selamat Datang</h1></center>
+        
         <?php
         $m = $_GET['m'];
 
