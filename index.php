@@ -16,7 +16,7 @@ $sql="SELECT * FROM tb_dtuser";
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <title>AMW V 0.1</title>
+    <title>Sistem AMW V 0.1</title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@ $sql="SELECT * FROM tb_dtuser";
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">Menu 1</a></li>
+            <li><a href="#about">Menu List</a></li>
             <li><a href="#contact">About</a></li>
           </ul>
         </div>
