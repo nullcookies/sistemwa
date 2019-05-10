@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: May 10, 2019 at 05:52 AM
--- Server version: 10.1.39-MariaDB
--- PHP Version: 7.1.29
+-- Host: 127.0.0.1
+-- Generation Time: May 10, 2019 at 11:08 AM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 7.2.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -43,7 +43,8 @@ CREATE TABLE `tb_dtuser` (
 --
 
 INSERT INTO `tb_dtuser` (`iduser`, `namauser`, `nomortelfon`, `tgldaftaruser`, `alamat`, `status`, `pesan`) VALUES
-(1, 'Ahmad M', '08123456789', '1 Mei 2019', 'Jl Ciungwanara V no 20', 'Aktif', '-');
+(1, 'Ahmad M', '08123456789', '1 Mei 2019', 'Jl Ciungwanara V no 20', 'Aktif', 'Hello World'),
+(2, 'Ku Klux Klan', '081936669580', '10 Mei 2019', 'Jl. SMK TI Bali Global', 'Aktif', 'asas');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +64,7 @@ ALTER TABLE `tb_dtuser`
 -- AUTO_INCREMENT for table `tb_dtuser`
 --
 ALTER TABLE `tb_dtuser`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
