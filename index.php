@@ -45,6 +45,8 @@
           include 'menulist.php';
         }elseif ($m=='about') {
           include 'about.php';
+        }elseif ($m=='pesan') {
+          include 'pesan.php';
         }else {
           include 'home.php';
         }
