@@ -74,10 +74,10 @@ $sql="SELECT * FROM tb_dtuser";
                 <td><?php echo $row ['status'] ?></td>
                 <td><?php echo $row ['pesan'] ?></td>
                 <td></td>
-                <td align="center">
-                <a href="index.php?ID=<?php echo $row['iduser']?>" style="text-decoration: none;"><span class="label label-warning glyphicon-pencil"> Edit Data</span></a>&nbsp;
-                <a href="index.php?ID=<?php echo $row['iduser']?>" style="text-decoration: none;"><span class="label label-primary glyphicon-phone-alt"> Tambah Pesan</span></a>&nbsp;
-                <a href="proseshapuspost.php?ID=<?php echo $row['iduser']?>" onclick="return confirm('Yakin Hapus Data ???')" style="text-decoration: none;"><span class="label label-danger glyphicon-trash"> Hapus Data</span></a>
+                <td align="left">
+                <a href="index.php?ID=<?php echo $row['iduser']?>" style="text-decoration: none;"><span class="label label-warning glyphicon-pencil">Edit</span></a><br><br>
+                <a href="index.php?ID=<?php echo $row['iduser']?>" style="text-decoration: none;"><span class="label label-primary glyphicon-phone-alt">Pesan</span></a><br><br>
+                <a href="proseshapuspost.php?ID=<?php echo $row['iduser']?>" onclick="return confirm('Yakin Hapus Data ???')" style="text-decoration: none;"><span class="label label-danger glyphicon-trash">Hapus</span></a>
             </tr>
             <?php }
             ?> 
