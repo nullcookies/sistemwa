@@ -16,7 +16,7 @@ $sql="SELECT * FROM tb_dtuser";
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <title>Sistem AMW V 0.1</title>
+    <title>AMW V 0.1</title>
 </head>
 
 <body>
