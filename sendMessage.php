@@ -25,4 +25,5 @@ Isi TOKEN dibawah ini:
 --------------------------------*/
 $secret_token = "813149125:AAH2KhBRJj6c_vcOhw_V8AxyeIWDCHTctwE";
 sendMessage($telegram_id, $message_text, $secret_token);
+echo "<script>alert('Pesan Terkirim');location.href='./'</script>"
 ?>
