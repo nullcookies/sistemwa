@@ -29,6 +29,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php?m=home">Home</a></li>
+            <li><a href="index.php?m=daftaruser">Daftar User</a></li>
             <li><a href="index.php?m=menulist">Menu List</a></li>
             <li><a href="index.php?m=about">About</a></li>
           </ul>
@@ -47,6 +48,8 @@
           include 'about.php';
         }elseif ($m=='pesan') {
           include 'pesan.php';
+        }elseif ($m=='daftaruser') {
+          include 'daftaruser.php';
         }else {
           include 'home.php';
         }
