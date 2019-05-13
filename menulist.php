@@ -8,7 +8,7 @@ $sql="SELECT * FROM tb_dtuser WHERE namauser LIKE '%$q%'";
         <center><h1>Menu list</h1></center>
         <br>
         <div class="panel panel-primary">
-                <div class="panel-heading">Panel Auto Massage WA V 0.1 <input type="text" name="q" value="<?php echo $q?>" placeholder="Search User..." style="margin-left: 65%;color: black;"></div>
+                <div class="panel-heading">Panel Auto Massage WA V 0.1 <input type="text" name="q" value="<?php echo $q?>" placeholder="Search User..." style="margin-left: 60%;color: black;">&nbsp;<button style="color:black;">Search</button></div>
         <table class="table table-bordered" align="center">
             <tr>
                 <th>No</th>
