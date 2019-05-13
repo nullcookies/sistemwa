@@ -11,16 +11,16 @@ $sql="SELECT * FROM tb_dtuser";
                 <div class="panel-heading">Panel Auto Massage WA V 0.1</div>
         <table class="table table-bordered" align="center">
             <tr>
-                <td>No</td>
-                <td>Nama User</td>
-                <td>Nomor Telfon</td>
-                <td>Tanggal User Terdaftar</td>
-                <td>Alamat</td>
-                <td>Status User</td>
-                <td>Pesan</td>
-                <td>status pesan</td>
-                <td>Jadwal Pengiriman</td>
-                <td>Aksi</td>
+                <th>No</th>
+                <th>Nama User</th>
+                <th>Nomor Telfon</th>
+                <th>Tanggal User Terdaftar</th>
+                <th>Alamat</th>
+                <th>Status User</th>
+                <th>Pesan</th>
+                <th>status pesan</th>
+                <th>Jadwal Pengiriman</th>
+                <th>Aksi</th>
             </tr>
             <?php
             $no = 1;
