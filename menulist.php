@@ -19,6 +19,7 @@ $sql="SELECT * FROM tb_dtuser";
                 <td>Status User</td>
                 <td>Pesan</td>
                 <td>status pesan</td>
+                <td>Jadwal Pengiriman</td>
                 <td>Aksi</td>
             </tr>
             <?php
@@ -32,6 +33,7 @@ $sql="SELECT * FROM tb_dtuser";
                 <td><?php echo $row ['alamat'] ?></td>
                 <td><?php echo $row ['status'] ?></td>
                 <td><?php echo $row ['pesan'] ?></td>
+                <td></td>
                 <td></td>
                 <td align="left">
                 <a href="index.php?ID=<?php echo $row['iduser']?>" style="text-decoration: none;"><span class="label label-warning glyphicon-pencil">Edit</span></a><br><br>
