@@ -1,14 +1,14 @@
 <?php 
 include 'config.php';
 
-$sql="SELECT * FROM tb_dtuser";
+$sql="SELECT * FROM tb_dtuser WHERE namauser LIKE '%$q%'";
 		$query=mysqli_query($conn, $sql);
 ?>
     <div class="container">
         <center><h1>Menu list</h1></center>
         <br>
         <div class="panel panel-primary">
-                <div class="panel-heading">Panel Auto Massage WA V 0.1</div>
+                <div class="panel-heading">Panel Auto Massage WA V 0.1 <input type="text" name="q" value="<?php echo $q?>" placeholder="Search User..." style="margin-left: 65%;color: black;"></div>
         <table class="table table-bordered" align="center">
             <tr>
                 <th>No</th>
